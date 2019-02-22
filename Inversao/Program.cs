@@ -1,16 +1,15 @@
-﻿using System;
+﻿//Teste Técnico para a empresa Melhor Plano
+//    Criado por: Glaycon Gomes Xavier
+//    Versão: 1.0
+
+using System;
 using System.IO;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Inversao
 {
     class Program
     {
-        public static StreamReader texto = new StreamReader("Texto.txt");
+        public static StreamReader texto = new StreamReader("Texto.in");
         public static string frase = texto.ReadLine();
         public static int tamanho = frase.Length;
         public static string auxiliar;

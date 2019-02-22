@@ -1,18 +1,10 @@
 ﻿using System;
-using System.IO;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Inversao
 {
     class Palavra:Program
     {
-
-        
-
         public static ArrayList OrdenaMatriz(string[,] matriz)
         {
             ArrayList palavrasF = new ArrayList();
@@ -35,8 +27,6 @@ namespace Inversao
                 }
                 
             }
-            
-
             palavrasF.Sort();
             
             return palavrasF;
