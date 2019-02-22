@@ -37,7 +37,8 @@ namespace Inversao
         {
             foreach (var item in palavras)
             {
-                Console.WriteLine(item);
+                if (item.Equals("")) { }
+                else Console.WriteLine(item);
             }
         }
 
