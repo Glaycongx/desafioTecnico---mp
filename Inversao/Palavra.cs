@@ -49,13 +49,6 @@ namespace Inversao
             {
                 Console.WriteLine(item);
             }
-
-
-            ////IMPRIME AS PALAVRAS ORDENADAS
-            for (int i = 0; i < palavras.Count; i++)
-            {
-                Console.WriteLine(palavras[i]);
-            }
         }
 
        
