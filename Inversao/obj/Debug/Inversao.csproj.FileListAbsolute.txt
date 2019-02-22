@@ -1,0 +1,14 @@
+C:\Users\olive\source\repos\Inversao\Inversao\obj\Debug\Inversao.csproj.CoreCompileInputs.cache
+C:\Users\olive\source\repos\Inversao\Inversao\bin\Debug\Inversao.exe.config
+C:\Users\olive\source\repos\Inversao\Inversao\bin\Debug\Inversao.exe
+C:\Users\olive\source\repos\Inversao\Inversao\bin\Debug\Inversao.pdb
+C:\Users\olive\source\repos\Inversao\Inversao\obj\Debug\Inversao.exe
+C:\Users\olive\source\repos\Inversao\Inversao\obj\Debug\Inversao.pdb
+C:\Users\olive\source\repos\Inversao\Inversao\obj\Debug\Inversao.csprojAssemblyReference.cache
+C:\Users\GGX_L\Desktop\Inversao\Inversao\bin\Debug\Inversao.exe.config
+C:\Users\GGX_L\Desktop\Inversao\Inversao\bin\Debug\Inversao.exe
+C:\Users\GGX_L\Desktop\Inversao\Inversao\bin\Debug\Inversao.pdb
+C:\Users\GGX_L\Desktop\Inversao\Inversao\obj\Debug\Inversao.csprojAssemblyReference.cache
+C:\Users\GGX_L\Desktop\Inversao\Inversao\obj\Debug\Inversao.csproj.CoreCompileInputs.cache
+C:\Users\GGX_L\Desktop\Inversao\Inversao\obj\Debug\Inversao.exe
+C:\Users\GGX_L\Desktop\Inversao\Inversao\obj\Debug\Inversao.pdb
