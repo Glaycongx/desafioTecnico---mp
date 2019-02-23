@@ -126,8 +126,8 @@ namespace Inversao
 
                     Console.Clear();
 
+                   
                     CriaArquivo.matrizParaAL(matriz);
-
                     Console.WriteLine("\n\nPressione qualquer tecla para voltar ao menu ou 0 para sair");
                     sair = Console.ReadLine();
                     if (sair == "0")

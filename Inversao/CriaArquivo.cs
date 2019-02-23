@@ -38,12 +38,13 @@ namespace Inversao
             for (int i = 0; i < tamanho; i++)
             {
                 for (int j = 0; j < tamanho; j++) { }
-                saida.WriteLine(ultimasLetras[i]);
+                saida.Write(ultimasLetras[i]);
             }
             saida.Close();
+            Console.WriteLine("O arquivo foi gerado com sucesso!");
             return ultimasLetras;
-        }
-
+            
+        }        
     }
 }
 
