@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Inversao
 {
-    class Palavra:Program
+    class Palavra : Program
     {
         public static ArrayList OrdenaMatriz(string[,] matriz)
         {
@@ -25,12 +25,11 @@ namespace Inversao
                     palavrasF.Add(palavraF);
                     palavraF = "";
                 }
-                
             }
             palavrasF.Sort();
-            
+          
             return palavrasF;
-    
+
         }
 
         public static void ImprimePalavrasOrdenadas(ArrayList palavras)
@@ -42,6 +41,8 @@ namespace Inversao
             }
         }
 
-       
+        
+
+
     }
 }

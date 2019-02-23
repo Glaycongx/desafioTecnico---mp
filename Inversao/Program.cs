@@ -4,6 +4,7 @@
 
 using System;
 using System.IO;
+using System.Collections;
 
 namespace Inversao
 {
@@ -63,7 +64,6 @@ namespace Inversao
                 Console.WriteLine("[ 1 ] Criar Matriz");
                 Console.WriteLine("[ 2 ] Ordena Matriz");
                 Console.WriteLine("[ 3 ] Criar arquivo");
-                Console.WriteLine("[ 4 ] ");
                 Console.WriteLine("[ 0 ] Sair");
                 Console.WriteLine("-------------------------------------");
 
@@ -126,41 +126,7 @@ namespace Inversao
 
                     Console.Clear();
 
-                    CriaArquivo.SalvaArquivo();
-                //    Console.WriteLine("O arquivo foi gerado com sucesso!");
-                //    StreamWriter saida = new StreamWriter("C: \\Users\\GGX_L\\Desktop\\Inversao\\Saidas\\glaycon.out");
-                //    for(int i = 0; i < tamanho; i++)
-                //{
-                //        for (int j = 0; j < tamanho; j++)
-                //        {
-                //            saida.WriteLine(matriz[i, j]);
-                            
-                //        }               
-                //    }
-                    
-                //    saida.Close();
-
-                    Console.WriteLine("\n\nPressione qualquer tecla para voltar ao menu ou 0 para sair");
-                    sair = Console.ReadLine();
-                    if (sair == "0")
-                    {
-                        Environment.Exit(0);
-                    }
-                    else
-                    {
-                        Console.Clear();
-                        goto menu;
-                    }
-
-                    Console.ReadKey(true);
-
-                    break;
-
-                case 4:
-
-                    Console.Clear();
-                    
-                    
+                    CriaArquivo.matrizParaAL(matriz);
 
                     Console.WriteLine("\n\nPressione qualquer tecla para voltar ao menu ou 0 para sair");
                     sair = Console.ReadLine();

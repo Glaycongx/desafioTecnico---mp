@@ -1,30 +1,50 @@
 ﻿using System;
 using System.IO;
+using System.Collections;
 
 namespace Inversao
 {
     class CriaArquivo : Program
     {
         public static string[,] matriz = new string[tamanho, tamanho];
-        public static int aux = 0;
+        public static int aux2 = 0;
+        public static ArrayList ultimasLetras = new ArrayList();
 
-        public static void SalvaArquivo()
+
+        public static ArrayList matrizParaAL(string[,] matriz)
         {
-            string[] ultimaLetra = new string[tamanho];
-            matriz = preencheMatriz(frase);
-            Console.WriteLine("O arquivo foi gerado com sucesso!");
-            StreamWriter saida = new StreamWriter("C: \\Users\\GGX_L\\Desktop\\Inversao\\Saidas\\encode" + aux++ + ".out");
+
+            string aux = "";
+            int novoTamanho = 0;
+            StreamWriter saida = new StreamWriter("C: \\Users\\GGX_L\\Desktop\\Inversao\\Saidas\\encode" + aux2++ + ".out");
+
             for (int i = 0; i < tamanho; i++)
             {
                 for (int j = 0; j < tamanho; j++)
                 {
-                    ultimaLetra[i] = matriz[i, j];
-                    saida.WriteLine(ultimaLetra[i]);
+
+                    aux = matriz[i, j];
+                    if (aux != "")
+                    {
+                        novoTamanho = aux.Length;
+                        string letter = aux.Substring(novoTamanho - 1);
+                        ultimasLetras.Add(letter);
+                    }
                 }
+                i = tamanho;
+
             }
-                saida.Close();       
+
+            for (int i = 0; i < tamanho; i++)
+            {
+                for (int j = 0; j < tamanho; j++) { }
+                saida.WriteLine(ultimasLetras[i]);
             }
+            saida.Close();
+            return ultimasLetras;
         }
+
     }
+}
 
 
